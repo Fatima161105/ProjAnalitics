@@ -1,17 +1,7 @@
 package models;
 
-import org.slf4j.LoggerFactory;
-import ch.qos.logback.classic.Logger;
-import ch.qos.logback.classic.Level;
+import Database.*;
 
-import java.io.IOException;
-import java.sql.SQLException;
-import java.util.*;
-import com.j256.ormlite.dao.Dao;
-import com.j256.ormlite.dao.DaoManager;
-
-import models.CSVParser;
-import models.DatabaseHelper;
 import java.util.List;
 
 

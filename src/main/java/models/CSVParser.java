@@ -26,8 +26,8 @@ public class CSVParser {
                 }
 
                 // Извлекаем имя и группу
-                String name = columns[0]; // Например, "Фамилия Имя"
-                String group = columns[1]; // Например, "РТФ.2021 Пересдачи Часть 1."
+                String name = columns[0];
+                String group = columns[1];
 
                 // Извлекаем баллы по ДЗ и Упражнениям
                 int totalGradeDz = 0;
@@ -40,7 +40,6 @@ public class CSVParser {
                 }
 
                 // Создаем объект Student и добавляем в список
-
                 students.add(new Student(name, group, totalGradeDz, totalGradeUp));
             }
         } catch (IOException e) {

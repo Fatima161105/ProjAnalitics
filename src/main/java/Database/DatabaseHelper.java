@@ -1,4 +1,4 @@
-package models;
+package Database;
 
 import com.j256.ormlite.jdbc.JdbcConnectionSource;
 import com.j256.ormlite.support.ConnectionSource;
@@ -19,7 +19,7 @@ public class DatabaseHelper implements AutoCloseable{
     }
 
     public void setupDatabase() throws SQLException {
-        // Создаем таблицы, если их еще нет
+        // Создаем таблицы
         TableUtils.createTableIfNotExists(connectionSource, GroupEntity.class);
         TableUtils.createTableIfNotExists(connectionSource, StudentEntity.class);
         TableUtils.createTableIfNotExists(connectionSource, TopicEntity.class);

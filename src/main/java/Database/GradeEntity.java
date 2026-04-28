@@ -1,4 +1,4 @@
-package models;
+package Database;
 
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
@@ -29,26 +29,6 @@ public class GradeEntity {
     }
 
     // Геттеры и сеттеры
-    public int getId() {
-        return id;
-    }
-
-    public StudentEntity getStudent() {
-        return student;
-    }
-
-    public void setStudent(StudentEntity student) {
-        this.student = student;
-    }
-
-    public TopicEntity getTopic() {
-        return topic;
-    }
-
-    public void setTopic(TopicEntity topic) {
-        this.topic = topic;
-    }
-
     public int getGradeValue() {
         return gradeValue;
     }

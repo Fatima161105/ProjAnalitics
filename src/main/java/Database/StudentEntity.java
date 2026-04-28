@@ -1,4 +1,4 @@
-package models;
+package Database;
 
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
@@ -34,4 +34,6 @@ public class StudentEntity {
     public GroupEntity getGroup() {
         return group;
     }
+
+
 }

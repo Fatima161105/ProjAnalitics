@@ -21,7 +21,6 @@ public class Grade {
         return topic;
     }
 
-
     public int getGrade() {
         return grade;
     }

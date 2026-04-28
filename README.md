@@ -38,3 +38,8 @@
     Apache POI – работа с Excel-файлами
   
     Swing – графический интерфейс пользовател
+
+<img width="1309" height="985" alt="2026-04-28_16-26-42" src="https://github.com/user-attachments/assets/0d98d557-fb94-4ec4-b9f2-807ac29b7f30" />
+<img width="1680" height="977" alt="2026-04-28_16-26-00" src="https://github.com/user-attachments/assets/54785604-3468-4afa-addd-93f1c5271c4d" />
+<img width="1593" height="1116" alt="2026-04-28_16-27-33" src="https://github.com/user-attachments/assets/286116d1-235f-4825-8f34-5336bb607bbe" />
+
